@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fadf97), to(#e7ab29));
+  background: linear-gradient(0deg, #fadf97, #e7ab29);
+  margin-bottom: 4px;
+}
+
+header .container {
+  max-width: 1440px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+}
+
+header .container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .logo img {
+  width: 80px;
+  height: 80px;
+}
+
+header .container .logo h1 {
+  color: black;
+}
+
+header .container .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+header .container .main-nav a {
+  font-size: 1.25rem;
+  margin: 0px 30px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+}
+
+header .container .main-nav a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -5px;
+  height: 0;
+  border-bottom: 1px solid black;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .container .main-nav a:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+header .container .main-nav a:hover:after {
+  left: 0;
+  right: 0;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4px;
+}
+
+main .container h1 {
+  margin-bottom: 4px;
+}
+
+main .container hr {
+  width: 1200px;
+  margin-bottom: 12px;
+  border: 3px solid rgba(128, 128, 128, 0.8);
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 2px #a2a2a2;
+          box-shadow: 1px 1px 2px #a2a2a2;
+}
+
+main .container table {
+  width: 900px;
+  border-collapse: collapse;
+  -webkit-box-shadow: 2px 2px 4px 4px #a2a2a2;
+          box-shadow: 2px 2px 4px 4px #a2a2a2;
+  margin-bottom: 8px;
+}
+
+main .container table thead {
+  text-align: center;
+}
+
+main .container table thead tr td {
+  padding: 8px 0;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+main .container table tbody tr td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+main .container table tbody tr td .image-container {
+  overflow: hidden;
+}
+
+main .container table tbody tr td .image-container img {
+  width: 300px;
+  height: 350px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+main .container table tbody tr td .image-container img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main .container table tbody tr .td1 {
+  width: 300px;
+  height: 350px;
+}
+
+main .container table tbody tr .td2 {
+  padding-left: 50px;
+}
+
+main .container table tbody tr .td2 ol li {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+main .container table tbody tr .td2 ol a {
+  color: #e19e0fe9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+main .container table tbody tr .td2 ol a:hover {
+  color: #ffae23;
+}
+
+main .container table tbody tr .td2 ol a:visited {
+  color: black;
+}
+
+footer {
+  min-height: 5vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer .copyrights {
+  background: gray;
+  padding: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
+/*# sourceMappingURL=mystyle.css.map */

@@ -1,0 +1,1 @@
+ErrorDocument 404 /var/www/html/404error.html

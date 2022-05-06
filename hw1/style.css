@@ -1,0 +1,28 @@
+button {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50; /* Green */
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+/* div h2 {
+  background: #ffc78e;
+  text-align: center;
+  padding: 16px;
+  display: none;
+  transition: all 1s ease;
+}
+
+div:hover h2 {
+  display: block;
+} */

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 10. 使用至少兩個 <meta> 標籤描述網頁的摘要和作者資訊(包含你的姓名及學號) -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="109403019 鄒翔宇" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="rating" content="General" />
+    <meta name="description" content="This page is about four adorable cats" />
+    <base target="_self" />
+    <title>NCU CAT</title>
+
+    <!-- 9. 額外選擇任兩種特效的語法放置於 mystyle.css 檔案中、使用 <link> 標籤讓 CSS 發揮效用 -->
+    <link rel="icon" type="image/x-icon" href="./cat-icon.png" />
+    <link rel="stylesheet" href="./mystyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./cat-logo.png" alt="cat logo" />
+          <h1>貓咪資訊網</h1>
+        </a>
+        <!-- 7. 滑鼠指標移到網頁特定位置會有 hover 所觸發的特效出現 -->
+        <nav class="main-nav">
+          <a href="#">HOME</a>
+          <a href="#">MORE CATS</a>
+          <a href="#">ABOUT</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 1. 使用 <table> 標籤配置有多個行列欄位的表格 -->
+    <main>
+      <div class="container">
+        <h1>貓咪介紹</h1>
+        <!-- 5. 使用 <hr> 標籤呈現 horizontal rule 並加上特效 -->
+        <hr />
+        <table>
+          <thead>
+            <tr>
+              <td>Picture</td>
+              <td>Description</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td1">
+                <!-- 2. 使用 <img> 標籤插入附件中四張圖片、加入替代文字、調整長/寬設定以符合版面配置-->
+                <div class="image-container">
+                  <img src="./a1.jpg" alt="cat 1 pictures" />
+                </div>
+              </td>
+              <td class="td2">
+                <!-- 3. 使用 <ol> 標籤呈現 ordered list 的效果 -->
+                <ol>
+                  <li>瞇瞇眼</li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                    <!-- 4. 使用 <br> 標籤呈現 line break -->
+                    <br />
+                    Facere magni eius, veritatis blanditiis culpa necessitatibus
+                    quae odio eaque quo impedit.
+                  </li>
+                  <!-- 8. 至少有四個超鏈結、未點選/點選過時會有不同顏色、點選後會讓使用者瀏覽器另開新分頁 -->
+                  <li>
+                    本照片於
+                    <a
+                      href="https://goo.gl/maps/K7qXMjTGo3a3dhct8"
+                      target="_blank"
+                      >麻六甲聖保羅山</a
+                    >
+                    拍攝
+                  </li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td class="td1">
+                <div class="image-container">
+                  <img src="./a2.jpg" alt="cat 2 pictures" />
+                </div>
+              </td>
+              <td class="td2">
+                <ol>
+                  <li>大胖橘</li>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ullam consequuntur reprehenderit quidem, aliquam consectetur
+                    quas.
+                  </li>
+                  <li>
+                    本照片於
+                    <a
+                      href="https://goo.gl/maps/YTSiWC2RmVtDHhRb7"
+                      target="_blank"
+                      >猴硐貓村</a
+                    >
+                    拍攝
+                  </li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td class="td1">
+                <div class="image-container">
+                  <img src="./a3.jpg" alt="cat 3 pictures" />
+                </div>
+              </td>
+              <td class="td2">
+                <ol>
+                  <li>圓滾滾</li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias similique magni nesciunt atque aliquam quo unde
+                    laboriosam facere rem? Fugiat quasi ab minus deleniti unde?
+                  </li>
+                  <li>
+                    本照片於
+                    <a
+                      href="https://goo.gl/maps/xEUPuTUokaE7r2Nq9"
+                      target="_blank"
+                      >哈爾濱東正教堂</a
+                    >
+                    拍攝
+                  </li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td class="td1">
+                <div class="image-container">
+                  <img src="./a4.jpg" alt="cat 4 pictures" />
+                </div>
+              </td>
+              <td class="td2">
+                <ol>
+                  <li>小釘鐺</li>
+                  <li>
+                    <!-- 6. 使用 <span> 標籤改變網頁中部分文字的 text color -->
+                    這是唯一一隻沒有<span style="color: rgb(255, 196, 0)"
+                      >咪眼睛</span
+                    >的貓。
+                  </li>
+                  <li>
+                    本照片於
+                    <a
+                      href="https://www.google.com/maps/search/%E6%A1%83%E5%9C%92%E7%81%AB%E9%8D%8B%E5%BA%97/@25.0057924,121.2359829,13z/data=!3m1!4b1"
+                      target="_blank"
+                      >桃園某火鍋店</a
+                    >
+                    拍攝
+                  </li>
+                </ol>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      <p class="copyrights">© 2022 鄒翔宇 109403019 all rights reserved.</p>
+    </footer>
+  </body>
+</html>
