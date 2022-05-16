@@ -24,3 +24,4 @@ if ($result) {
   // Insert failed
   die("Failure: " . mysqli_error($link) . "\n");
 }
+?>
